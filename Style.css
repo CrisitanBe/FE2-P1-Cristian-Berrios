@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: #001f3f; /* Azul marino */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0074D9; /* Azul más claro */
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.nav a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.descripcion {
+    display: flex;
+    flex-direction: column; /* Cambia a diseño vertical */
+    align-items: flex-start;
+    background: #001f3f; /* Azul marino */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.descripcion-content {
+    max-width: 100%;
+}
+
+.descripcion h1 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.descripcion p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;
+}
+
+.caracteristicas {
+    background: #001f3f; /* Azul marino */
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.caracteristicas h2 {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.caracteristicas ul {
+    list-style: none;
+    padding: 0;
+}
+
+.caracteristicas li {
+    margin-bottom: 0.5rem;
+    padding-left: 1rem;
+    position: relative;
+    color: white;
+}
+
+.caracteristicas li::before {
+    content: '✔';
+    color: #0074D9; /* Azul más claro */
+    position: absolute;
+    left: 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #0074D9; /* Azul más claro */
+    color: white;
+    margin-top: 2rem;
+}

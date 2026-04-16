@@ -2,3 +2,10 @@ Etapa 1
 prompt "En html genera una pagina simple que contenga el nombre para un telefono el cual es "Inacap S26", una descripcion generica simple para telfonos de gama media, el sitio debe ser basico y contar con una seccion destacada para presentar el producto. No añadas nada de estilos o o colores"
 El proposito del prompt es crear una pagina basica para mostrar informacion general del producto añadiendo exclusivamente lo solicitado en la estapa 1
 El resultado es fue util ya que entregó lo solicitado por lo que no su hizo ningun cambio
+
+Etapa 2
+prompts "Ahora modifica ambos archivos (html y css) añadiendo una mejora del diseño visual a uno corporativo tecnologico similar a samsung, la fuente tambien debe ser como lo indicado anteriormente. Finalmente disbuye el contenido de manera similar a paginas modernas de venta de disposivos moviles"
+        "el fondo debe ser de azul marino en ligar de blanco , las letras deben ser blancas, la cabecera del sitio debe tener un azul mas claro "
+El proposito de los promps para la etapa 2 fue mejorar el estilo visual del sitio web para que sea similar a paginas similares de venta de productos tecnologicos
+El resultado del primer prompt fue parcialmente util ya que los colores no eran agradables a las vista y la pagina era dificil de leer
+El resultado del segundo prompt fue util ya que arreglo los colores segun lo solicitado
