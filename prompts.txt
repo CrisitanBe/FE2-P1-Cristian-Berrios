@@ -9,3 +9,8 @@ prompts "Ahora modifica ambos archivos (html y css) añadiendo una mejora del di
 El proposito de los promps para la etapa 2 fue mejorar el estilo visual del sitio web para que sea similar a paginas similares de venta de productos tecnologicos
 El resultado del primer prompt fue parcialmente util ya que los colores no eran agradables a las vista y la pagina era dificil de leer
 El resultado del segundo prompt fue util ya que arreglo los colores segun lo solicitado
+
+Etapa 3
+prompts"Modifica la pagina agregando características principales, beneficios del producto,especificaciones técnicas,posibles usos o ventajas frente a otros productos."
+El proposito fue satisfacer los requerimiento de la etapa 3 los cuales son mostrar caracteriscas generales del producto mostrando todos los aspecos que haga al producto atractivo
+El resultado del prompt fue util ya que añadio descripciones de disposivos moviles de la misma gama que el producto de manera ordenada mostrando los beneficios para distintos tipos de usuarios
