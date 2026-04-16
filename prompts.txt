@@ -1,0 +1,4 @@
+Etapa 1 
+prompt "En html genera una pagina simple que contenga el nombre para un telefono el cual es "Inacap S26", una descripcion generica simple para telfonos de gama media, el sitio debe ser basico y contar con una seccion destacada para presentar el producto. No añadas nada de estilos o o colores"
+El proposito del prompt es crear una pagina basica para mostrar informacion general del producto añadiendo exclusivamente lo solicitado en la estapa 1
+El resultado es fue util ya que entregó lo solicitado por lo que no su hizo ningun cambio
