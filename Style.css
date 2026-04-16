@@ -20,6 +20,11 @@ body {
     font-weight: 700;
 }
 
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .nav a {
     margin-left: 1rem;
     text-decoration: none;
@@ -37,10 +42,7 @@ body {
     margin: 0 auto;
 }
 
-.descripcion {
-    display: flex;
-    flex-direction: column; /* Cambia a diseño vertical */
-    align-items: flex-start;
+section {
     background: #001f3f; /* Azul marino */
     padding: 2rem;
     margin-bottom: 2rem;
@@ -48,48 +50,25 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.descripcion-content {
-    max-width: 100%;
-}
-
-.descripcion h1 {
-    font-size: 2.5rem;
-    color: white;
-}
-
-.descripcion p {
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: white;
-}
-
-.caracteristicas {
-    background: #001f3f; /* Azul marino */
-    padding: 2rem;
-    margin-bottom: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.caracteristicas h2 {
+section h2 {
     font-size: 2rem;
     color: white;
     margin-bottom: 1rem;
 }
 
-.caracteristicas ul {
+section ul {
     list-style: none;
     padding: 0;
 }
 
-.caracteristicas li {
+section li {
     margin-bottom: 0.5rem;
     padding-left: 1rem;
     position: relative;
     color: white;
 }
 
-.caracteristicas li::before {
+section li::before {
     content: '✔';
     color: #0074D9; /* Azul más claro */
     position: absolute;
@@ -102,4 +81,60 @@ body {
     background-color: #0074D9; /* Azul más claro */
     color: white;
     margin-top: 2rem;
+}
+
+/* Media Queries para pantallas pequeñas (móviles) */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav {
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+
+    .nav a {
+        margin: 0.5rem 0;
+    }
+
+    .main {
+        padding: 1rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    section h2 {
+        font-size: 1.5rem;
+    }
+
+    section ul {
+        padding-left: 1rem;
+    }
+
+    section li {
+        font-size: 1rem;
+    }
+}
+
+/* Media Queries para pantallas muy pequeñas (menos de 480px) */
+@media (max-width: 480px) {
+    .header .logo {
+        font-size: 1.2rem;
+    }
+
+    .nav a {
+        font-size: 0.9rem;
+    }
+
+    section h2 {
+        font-size: 1.2rem;
+    }
+
+    section li {
+        font-size: 0.9rem;
+    }
 }
